@@ -24,7 +24,10 @@ public class RandomGen {
 
     //Método generador de números aleatorios.
     public int generator(){
-    value = randomNo.nextInt(100);
+    
+    //Cambie el valor dentro de nextInt para establecer el rango de los números generados.
+    //Por ejemplo si se desea un número de 0 a 10, value = randomNo.nextInt(10);
+    value = randomNo.nextInt(1999);
     return value;
     }
    
