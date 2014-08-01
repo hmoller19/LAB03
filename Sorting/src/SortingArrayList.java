@@ -29,15 +29,17 @@ public class SortingArrayList implements Comparable<Object> {
         
     }
     
-//    @Override
-//    public int compareTo(Object o) {
-//       int result;
-//       
-//       String otherValue = ((SortingArrayList)o).getValue();
-//       
-//           result = value.compareTo(otherValue); 
-//       return result;
-//    }
+    //No logro que funcione el compareTo
+      @Override
+    public int compareTo(Object o) {
+       int result;
+       
+       String otherValue = ((SortingArrayList)o).getValue();
+       
+           result = value.compareTo(otherValue); 
+       return result;
+    }
+  
 
 
     /**
